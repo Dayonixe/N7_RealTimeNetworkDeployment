@@ -183,7 +183,7 @@ Total packets dropped:               0
 
 As you can see the program uses the switching table to send the packets that correspond to each VL to the right port.
 
-# The VLs are multicast
+## The VLs are multicast
 
 For the multicast VLs, we have chosen to modify the data structure we used for the first configuration. We created a list of list of dimension $65536*2$. As follows:
 
@@ -245,7 +245,7 @@ Total packets dropped:               0
 ====================================================
 ```
 
-# VL control at the input
+## VL control at the input
 
 ### Machine without DPDK
 
